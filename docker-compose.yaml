@@ -1,7 +1,7 @@
 services:
   grafana:
     image: grafana/grafana:latest
-    user: "meannce"
+    user: "472" # run container as non-root
     depends_on:
       - prometheus
       - tempo
